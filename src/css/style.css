@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(181, 190, 212);
+   
+    height: 480px;
+}
+#container {
+    width: 35%;
+    margin: 100px auto;
+    background-color:rgb(134, 144, 173);
+    border: 1.5px solid rgb(117, 123, 139) ;
+    border-radius: 5px;
+    box-shadow:5px 5px 8px rgb(52, 53, 56) ;
+    
+}
+button {
+    width: 50px;
+    height: 50px;
+    background:linear-gradient(135deg,rgb(42, 61, 138),rgb(162, 151, 151));
+   border: 1px solid rgb(39, 38, 38);
+   border-radius: 20px;
+   position: relative;
+   left: 5px;
+}
+#textarea{
+    background:linear-gradient(90deg,rgb(139, 149, 177),white );
+    border: 1.5px solid rgb(39, 38, 38) ;
+    border-radius: 3px;
+    position: relative;
+    left: 5px;
+    
+    
+}
+@media (min-width:720px){
+    #container {
+        width: 18%;
+    }
+}
